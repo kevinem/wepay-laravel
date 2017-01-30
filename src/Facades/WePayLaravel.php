@@ -5,7 +5,7 @@ namespace KevinEm\WePay\Laravel\Facades;
 
 use Illuminate\Support\Facades\Facade;
 
-class WePay extends Facade
+class WePayLaravel extends Facade
 {
 
     /**

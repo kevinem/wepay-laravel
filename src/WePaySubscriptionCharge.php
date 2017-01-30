@@ -1,6 +1,6 @@
 <?php
 
-namespace KevinEm\WePay\Laravel\Implementations;
+namespace KevinEm\WePay\Laravel;
 
 
 use KevinEm\WePay\Laravel\Base;

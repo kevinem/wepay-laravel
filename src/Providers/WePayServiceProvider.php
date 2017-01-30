@@ -4,7 +4,7 @@ namespace KevinEm\WePay\Laravel\Providers;
 
 
 use Illuminate\Support\ServiceProvider;
-use KevinEm\WePay\Laravel\WePay;
+use KevinEm\WePay\Laravel\WePayLaravel;
 
 class WePayServiceProvider extends ServiceProvider
 {
@@ -33,7 +33,7 @@ class WePayServiceProvider extends ServiceProvider
         $this->mergeConfigFrom(__DIR__ . '/../config.php', 'wepay');
 
         $this->app->bind('wepay', function ($app) {
-            return new WePay($app['config']['wepay']);
+            return new WePayLaravel($app['config']['wepay']);
         });
     }
 }

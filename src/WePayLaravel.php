@@ -3,21 +3,8 @@
 namespace KevinEm\WePay\Laravel;
 
 use KevinEm\WePay\Laravel\Exceptions\WePayInvalidEnvironmentException;
-use KevinEm\WePay\Laravel\Implementations\WePayAccount;
-use KevinEm\WePay\Laravel\Implementations\WePayAccountMembership;
-use KevinEm\WePay\Laravel\Implementations\WePayApp;
-use KevinEm\WePay\Laravel\Implementations\WePayBatch;
-use KevinEm\WePay\Laravel\Implementations\WePayCheckout;
-use KevinEm\WePay\Laravel\Implementations\WePayCreditCard;
-use KevinEm\WePay\Laravel\Implementations\WePayPreApproval;
-use KevinEm\WePay\Laravel\Implementations\WePaySubscription;
-use KevinEm\WePay\Laravel\Implementations\WePaySubscriptionCharge;
-use KevinEm\WePay\Laravel\Implementations\WePaySubscriptionPlan;
-use KevinEm\WePay\Laravel\Implementations\WePayUser;
-use KevinEm\WePay\Laravel\Implementations\WePayUserMfa;
-use KevinEm\WePay\Laravel\Implementations\WePayWithdrawal;
 
-class WePay
+class WePayLaravel
 {
 
     /**
